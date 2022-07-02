@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sonnet type="Test">
+    <author>
+        <firstName>Ilya</firstName>
+        <lastName>Prigozhaev</lastName>
+        <nationality>Belarus</nationality>
+        <yearOfBirth>1997</yearOfBirth>
+        <yearOfDeath>0</yearOfDeath>
+    </author>
+    <title>MyTitle</title>
+    <lines>
+        <line>Hello</line>
+        <line>That's</line>
+        <line>My</line>
+        <line>Lines</line>
+    </lines>
+</sonnet>
