@@ -16,7 +16,6 @@ public class DOMProcessing {
 
     public static Masterpiece toObj() {
         try {
-            //  C:\Users\User\IdeaProjects\Homework18\X-Files
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(new File(Processing.getCheckList()));

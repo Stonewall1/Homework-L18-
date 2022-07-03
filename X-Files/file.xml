@@ -1,5 +1,7 @@
 <?xml version="1.0"  ?>
 <sonnet type="Shakespearean">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Masterpiece.xsd">
     <author>
         <lastName>Shakespeare</lastName>
         <firstName>William</firstName>
