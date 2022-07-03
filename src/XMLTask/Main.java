@@ -19,5 +19,10 @@ public class Main {
             Masterpiece master2 = SAXProcessing.toObj();
             Processing.writingToTxtFile(master2);
         }
+        //DOM
+        else if(X.equals("3")){
+            Masterpiece master3 = DOMProcessing.toObj();
+            Processing.writingToTxtFile(master3);
+        }
     }
 }
