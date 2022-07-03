@@ -9,13 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JAXBProcessing {
-    // C:\Users\User\IdeaProjects\Homework18\X-Files
     public static Masterpiece toObj() {
         File path = new File(Processing.getCheckList());
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Masterpiece.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             Masterpiece unmarshal = (Masterpiece) jaxbUnmarshaller.unmarshal(path);
+            System.out.println(unmarshal);
             return unmarshal;
         } catch (JAXBException e) {
             throw new RuntimeException(e);
@@ -58,5 +58,4 @@ public class JAXBProcessing {
         masterpiece.setAuthor(myAuthor);
         return masterpiece;
     }
-
 }

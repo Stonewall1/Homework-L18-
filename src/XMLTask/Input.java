@@ -14,11 +14,7 @@ public class Input {
         return inputPathToFolder();
     }
 
-    private static int choice(){
-        System.out.println("Enter 1 , 2 or 3");
-        return scanner.nextInt();
-    }
-    public static int getChoice(){
-        return choice();
+    public static String numberInput(){
+        return scanner.nextLine();
     }
 }
